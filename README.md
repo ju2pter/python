@@ -1,5 +1,5 @@
 # python
-exercicios e projetos
+
 Este é um repositório contendo exemplos e explicações sobre conceitos fundamentais de programação em Python.
 
 Variáveis e Tipos de Dados
