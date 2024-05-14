@@ -1,7 +1,7 @@
 #variaveis são espaços na memoria onde podemos armazenar dados.
 #podemos atribuir tipos de dados difentes, como strings(texto), numericos(1,2,3...) e booleanos (verdadeiro e falso)
 
-nome = "juliana" #Aqui criei uma variavel nome e atribui um valor string "juliana"
+nome = "juliana" #Aqui criei uma variavel chamada (nome) e atribui a ela o valor string "juliana"
 
 idade = 23 #Aqui atribui um valor numérico
 
