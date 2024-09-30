@@ -2,7 +2,7 @@
 
 Este repositório contém uma coleção de projetos e exercícios em Python, que abrangem desde conceitos básicos até tópicos mais avançados. Meu objetivo é compartilhar o aprendizado e a prática de diferentes aspectos da linguagem Python, organizados por nível de complexidade.
 
-Básico:
+(Básico)
 
 Nos exercícios de nível básico, você encontrará a aplicação de conceitos fundamentais, tais como:
 
@@ -12,7 +12,7 @@ Loops: Utilização de for e while para criar estruturas repetitivas.
 Tratamento de exceções: Uso de try/except para garantir a robustez do código.
 Estruturas de dados: Trabalhando com listas e tuplas para manipulação de coleções.
 
-Avançado:
+(Avançado)
 
 Nos projetos mais avançados, exploro tópicos mais complexos e práticas que elevam o nível de programação:
 
