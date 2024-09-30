@@ -1,4 +1,5 @@
-#Projetos e Exercícios em Python
+# 💻 Projetos e Exercícios em Python
+
 Este repositório contém uma coleção de projetos e exercícios em Python, que abrangem desde conceitos básicos até tópicos mais avançados. Meu objetivo é compartilhar o aprendizado e a prática de diferentes aspectos da linguagem Python, organizados por nível de complexidade.
 
 Básico
