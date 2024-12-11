@@ -1,0 +1,31 @@
+def calcular_desconto(preco, porcentagem_desconto):
+    # Calcula o valor do desconto
+    desconto = preco * (porcentagem_desconto / 100)
+    # Calcula o preço final
+    preco_final = preco - desconto
+    # Retorna os resultados
+    return desconto, preco_final
+
+def calcular_descontos_lista(lista_produtos):
+    for produto in lista_produtos:
+        preco = produto['preco']
+        desconto_percentual = produto['desconto']
+        
+        valor_desconto, preco_com_desconto = calcular_desconto(preco, desconto_percentual)
+        
+        # Exibe o resultado para cada produto
+        print(f"Produto: {produto['nome']}")
+        print(f"  Preço original: R$ {preco:.2f}")
+        print(f"  Valor do desconto: R$ {valor_desconto:.2f}")
+        print(f"  Preço com desconto: R$ {preco_com_desconto:.2f}")
+        print("-" * 40)
+
+# Lista de produtos com preço e desconto
+produtos = [
+    {'nome': 'Camiseta', 'preco': 50.0, 'desconto': 10},
+    {'nome': 'Calça', 'preco': 120.0, 'desconto': 15},
+    {'nome': 'Jaqueta', 'preco': 200.0, 'desconto': 20}
+]
+
+# Chama a função para calcular os descontos de todos os produtos
+calcular_descontos_lista(produtos)
